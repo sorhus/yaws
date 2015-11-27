@@ -46,7 +46,7 @@ public class YawsMaster {
         get("/pipe/:class/:name/start", (req, res) -> {
 
             System.out.println(req.params());
-            String jarPath = "hdfs:///user/sorhus/yaws.jar"; //req.params(":jar");
+            String jarPath = "hdfs:///user/anton/yaws.jar"; //req.params(":jar");
             String pipeClass = req.params(":class");
             String pipeName = req.params(":name");
 
